@@ -1,4 +1,4 @@
-# ML-capuchinbird-calls-prediction
+# Deep Audio Classifier with Convolutinal Neural Network
 - This project was done using the Z by HP Unlocked Challenge 3 - Audio Recognition dataset. Unlocked is an action-packed interactive film made by Z by HP for data scientists. The challenge is to build a ML model and code to count the number of Capuchin bird calls within a given clip. It can be utilized to find the areas in a forest where capuchin bird mostly live.
 - The dataset is available in [Kaggle](https://www.kaggle.com/datasets/kenjee/z-by-hp-unlocked-challenge-3-signal-processing)
 - Maintain the directory structure as provided below to run the script without any issue.
