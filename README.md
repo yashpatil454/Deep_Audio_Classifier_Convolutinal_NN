@@ -1,6 +1,9 @@
 # Deep Audio Classifier with Convolutinal Neural Network
 - This project was done using the Z by HP Unlocked Challenge 3 - Audio Recognition dataset. Unlocked is an action-packed interactive film made by Z by HP for data scientists. The challenge is to build a ML model and code to count the number of Capuchin bird calls within a given clip. It can be utilized to find the areas in a forest where capuchin bird mostly live.
 - The dataset is available in [Kaggle](https://www.kaggle.com/datasets/kenjee/z-by-hp-unlocked-challenge-3-signal-processing)
+- The project demonstrates the application of deep learning techniques for audio signal processing and classification. The Capuchin bird call audio files are preprocessed by converting them to spectrograms, which are then used as input for the CNN model.
+- The CNN model architecture consists of 2 convolutional layers with 8 filters each, followed by a flattening layer and two dense layers. The model is trained for 4 epochs, achieving a training loss of 0.0249, recall of 1.0, and precision of 1.0.
+- The trained model is then used to predict Capuchin bird calls in a set of 60 mp3 audio recordings, and the results are exported to a CSV file.
 - Maintain the directory structure as provided below to run the script without any issue.
 ```
 .
